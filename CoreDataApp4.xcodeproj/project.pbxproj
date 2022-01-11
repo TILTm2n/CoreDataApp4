@@ -58,6 +58,7 @@
 		A380E141278DA53B004FA145 /* CoreDataApp4 */ = {
 			isa = PBXGroup;
 			children = (
+				A380E15F278DB2FB004FA145 /* Model */,
 				A380E142278DA53B004FA145 /* AppDelegate.swift */,
 				A380E144278DA53B004FA145 /* SceneDelegate.swift */,
 				A380E148278DA53B004FA145 /* Main.storyboard */,
@@ -68,6 +69,13 @@
 				A380E159278DA635004FA145 /* TableViewController.swift */,
 			);
 			path = CoreDataApp4;
+			sourceTree = "<group>";
+		};
+		A380E15F278DB2FB004FA145 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
