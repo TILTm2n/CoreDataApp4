@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		A380E143278DA53B004FA145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380E142278DA53B004FA145 /* AppDelegate.swift */; };
 		A380E145278DA53B004FA145 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380E144278DA53B004FA145 /* SceneDelegate.swift */; };
-		A380E147278DA53B004FA145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380E146278DA53B004FA145 /* ViewController.swift */; };
 		A380E14A278DA53B004FA145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A380E148278DA53B004FA145 /* Main.storyboard */; };
 		A380E14D278DA53B004FA145 /* CoreDataApp4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A380E14B278DA53B004FA145 /* CoreDataApp4.xcdatamodeld */; };
 		A380E14F278DA53C004FA145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A380E14E278DA53C004FA145 /* Assets.xcassets */; };
 		A380E152278DA53C004FA145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A380E150278DA53C004FA145 /* LaunchScreen.storyboard */; };
+		A380E15A278DA635004FA145 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380E159278DA635004FA145 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A380E13F278DA53B004FA145 /* CoreDataApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A380E142278DA53B004FA145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A380E144278DA53B004FA145 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A380E146278DA53B004FA145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A380E149278DA53B004FA145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A380E14C278DA53B004FA145 /* CoreDataApp4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataApp4.xcdatamodel; sourceTree = "<group>"; };
 		A380E14E278DA53C004FA145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A380E151278DA53C004FA145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A380E153278DA53C004FA145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A380E159278DA635004FA145 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				A380E142278DA53B004FA145 /* AppDelegate.swift */,
 				A380E144278DA53B004FA145 /* SceneDelegate.swift */,
-				A380E146278DA53B004FA145 /* ViewController.swift */,
 				A380E148278DA53B004FA145 /* Main.storyboard */,
 				A380E14E278DA53C004FA145 /* Assets.xcassets */,
 				A380E150278DA53C004FA145 /* LaunchScreen.storyboard */,
 				A380E153278DA53C004FA145 /* Info.plist */,
 				A380E14B278DA53B004FA145 /* CoreDataApp4.xcdatamodeld */,
+				A380E159278DA635004FA145 /* TableViewController.swift */,
 			);
 			path = CoreDataApp4;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A380E147278DA53B004FA145 /* ViewController.swift in Sources */,
 				A380E14D278DA53B004FA145 /* CoreDataApp4.xcdatamodeld in Sources */,
 				A380E143278DA53B004FA145 /* AppDelegate.swift in Sources */,
 				A380E145278DA53B004FA145 /* SceneDelegate.swift in Sources */,
+				A380E15A278DA635004FA145 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
