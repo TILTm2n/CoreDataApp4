@@ -47,6 +47,22 @@ class TableViewController: UITableViewController {
 
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        //обращение в БД для получения всех сущностей MyTask
+        let fetchRequest: NSFetchRequest<MyTask> = MyTask.fetchRequest()
+        
+        do{
+            //присваиваем массиву массив сущностей, полученных из контекста
+            toDoItems = try context.fetch(fetchRequest)
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
